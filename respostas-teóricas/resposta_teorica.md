@@ -26,6 +26,8 @@ Segundo a documentação[1] Spark RDD é uma coleção de elementos particionado
 
 5 - GroupByKey é menos eficiente que reduceByKey em grandes dataset. Por quê? 
 
+Sim, segundo [5] rdd.reduceByKey(func) produz o mesmo resultado RDD de rdd.groupByKey().mapValues(value => value.reduce(func)) porém é mais eficiente e evita o passo de criar uma lista de valores para cada chave.
+
 6 - Explique o que o código Scala abaixo faz.
 
 ```scala

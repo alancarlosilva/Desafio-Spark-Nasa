@@ -64,3 +64,5 @@ Os logs estão em arquivos ASCII com uma linha por requisição com as seguintes
 > 
 
 > [3] - **Spark exemplos**, <https://spark.apache.org/examples.html>
+
+> [4] - **Spark Certificação**, <https://github.com/alancarlosilva/Spark_Certificacao>
